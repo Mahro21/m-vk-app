@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Mahro21/m-vk-app.git/precache-manifest.41029a4e40296c7ce1676aef7bf6a869.js"
+  "/m-vk-app/precache-manifest.3f96631e3f0882f69f1cd4e4f050ba3a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Mahro21/m-vk-app.git/index.html", {
+workbox.routing.registerNavigationRoute("/m-vk-app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
