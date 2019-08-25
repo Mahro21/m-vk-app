@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Panel, ListItem, Button, Group, Div, Avatar, PanelHeader } from '@vkontakte/vkui';
 
+connect.send("VKWebAppInit", {});
+
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
 		<PanelHeader>Example</PanelHeader>
@@ -17,7 +19,7 @@ const Home = ({ id, go, fetchedUser }) => (
 
 		<Group title="Navigation Example">
 			<Div>
-				<Button size="x4" level="2" onClick={go} data-to="persik">
+				<Button connect.send("VKWebAppShowWallPostBox", {"message": "Hello!"});">
 					Show me the Persik, please
 				</Button>
 			</Div>
