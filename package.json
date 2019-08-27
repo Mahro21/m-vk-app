@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "mahro",
   "version": "1.0.2",
   "description": "",
@@ -10,6 +11,17 @@
     "now-build": "react-scripts build",
 	"predeploy": "npm run build",
 "deploy": "gh-pages -d build"
+=======
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://github.com/Mahro21/m-vk-app.git/"
+  "scripts": {
+    "start": "cross-env PORT=10888 react-scripts shttps://github.com/Mahro21/m-vk-app.gittart",
+    "build: "react-scripts build",
+  "now-build": "react-scripts build" 
+>>>>>>> f99cb4bf98a44c2d6b7928f52d8a9c782ce34ec4
   },
   "keywords": [],
   "author": "",
@@ -35,6 +47,10 @@
     ">0.2%",
     "not dead",
     "not ie <= 11",
+<<<<<<< HEAD
     "not op_mini all"
   ]
 }
+=======
+    "
+>>>>>>> f99cb4bf98a44c2d6b7928f52d8a9c782ce34ec4
